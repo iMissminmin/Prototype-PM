@@ -1,0 +1,44 @@
+{
+  "name": "Prototype-PM",
+  "source": "sales_agent_workspace_middle_box_hover_effect.html",
+  "layout": {
+    "pagePadding": {
+      "large": "22px",
+      "medium": "18px",
+      "narrow": "14px"
+    },
+    "gap": "18px-24px",
+    "sidebarExpanded": "240px",
+    "sidebarCollapsed": "76px",
+    "componentPanel": "340px-390px",
+    "assistantPanel": "360px-430px",
+    "main": "minmax(560px, 1fr)"
+  },
+  "radius": {
+    "outerPanel": "24px-28px",
+    "card": "22px-26px",
+    "control": "12px-18px",
+    "pill": "999px"
+  },
+  "shadow": {
+    "soft": "0 10px 26px rgba(55,72,110,.06)",
+    "cardHover": "0 18px 42px rgba(50,72,120,.13)",
+    "primary": "0 20px 45px rgba(47,107,255,.28)"
+  },
+  "interaction": {
+    "cardHover": "translateY(-3px)",
+    "buttonHover": "translateY(-1px) to translateY(-2px)",
+    "navHover": "translateX(3px-4px)",
+    "motionSafety": "prefers-reduced-motion: reduce"
+  },
+  "platforms": [
+    "APP",
+    "Web",
+    "Desktop Client"
+  ],
+  "constraints": [
+    "Reference images must not override the skill design method",
+    "Do not mix previous skills or unrelated MD content",
+    "Keep central workspace complete, not empty"
+  ]
+}
